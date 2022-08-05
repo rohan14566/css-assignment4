@@ -1,0 +1,176 @@
+
+.box1{
+    text-align: center;
+    background-image: linear-gradient( to right,red,green,yellow);
+    height: 25px;
+
+}
+.box2{
+    text-align: center;
+    background-color: rgb(137, 137, 188);
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 50%;
+    height: 90px;
+    margin: 15px 25% 0px 25%;
+
+
+}
+.test{
+    background-color: rgb(158, 233, 158);
+     border: 2px solid red;
+    border-radius:15px;
+    height: 163px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+.test1{ 
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid green;
+    height: 75px;
+    width: 370px;
+    margin:0px 10px 0px 10px;
+}
+.test2{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid green;
+    height: 75px;
+    width: 370px;
+    margin:0px 10px 0px 10px;
+
+}
+.test3{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid green;
+    height: 75px;
+    width: 370px;
+    margin:0px 10px 0px 10px;
+
+}
+.test4{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid green;
+    height: 75px;
+    width: 370px;
+}
+.box3{
+    text-align: center;
+    background-image: linear-gradient( to right,red,yellow,red);
+    height: 30px;
+    text-decoration: underline;
+    margin-top: 20px;
+
+}
+
+.container{
+    background-image: radial-gradient(rgb(109, 109, 236),green);
+    margin-top: 20px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1{
+    text-align: center;
+    text-decoration:underline;
+    height: 125px;
+    background-color: yellow;
+    color: brown;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 200px;
+    margin-top:90px;
+
+}
+.container2{
+    text-decoration: underline;
+    text-align: center;
+    height: 125px;
+    background-color: yellow;
+    color: brown;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 200px;
+    margin-top:90px;
+
+}
+.container3{
+    text-align: center;
+    text-decoration: underline;
+    height: 125px;
+    background-color: yellow;
+    color: brown;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 200px;
+    margin-top:90px;
+}
+.container4{
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    height: 125px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 200px;
+    margin-top: 90px;
+}
+.slide{ 
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 60px 90px 155px 45px;
+     grid-template-columns: repeat(3 ,1fr) 125px;
+     grid-gap: 15px;
+}
+.slide1{
+    text-align: center;
+    color: white;
+    background-color: red;
+    grid-column:1/5;
+}
+.slide2{ 
+    color: white;
+    padding:10px 40px 0px 40px;
+    font-size: 30px;
+    background-color: green;
+}
+.slide3{
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+    background-color: rgb(73, 73, 130);
+}
+.slide4{ 
+    color: white;
+    padding: 5px 90px 0px 0px ;
+    font-size: 20px;
+    background-color: blue;
+}
+.slide5{
+    background-color: black;
+    list-style-position: inside;
+    color: white;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.slide6{
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    grid-column:1/4 ;
+}
+.slide7{
+    text-align: center;
+    background-color:aqua;
+    grid-column: 1/5;
+}
